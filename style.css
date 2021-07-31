@@ -1,0 +1,121 @@
+/* import */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #334756;
+}
+.myprofile{
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+}
+
+.luca{
+    text-align: center;
+    color: white;
+    width: fit-content;
+}.luca:hover{
+    color: white;
+}
+
+.main-container{
+    background-image: url(Images/background.jpg);
+    width: max-content;
+    color: white;
+    border-radius: 20px;
+    margin: 3rem auto;
+    box-shadow: white 0px 2px 0px 3px;
+    transition: 1s;
+}.main-container:hover{
+    transition: 500ms;
+    transform: translateY(5px);
+}
+
+.location-container div h1{
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 15rem;
+    font-size: 36px;
+    font-weight: 700;
+}
+.location-container h2{
+    font-size: 24px;
+    padding-left: 1rem;
+    font-weight: 700;
+
+}
+.location-container h3{
+    padding-left: 2rem;
+    font-size: medium;
+    font-weight: 700;
+}
+
+
+/*second section*/
+.temperature-container{
+    margin-top: 12rem;
+    padding-bottom: 1rem;
+}
+.temperature-container , h1, h2{
+    margin-left: 1rem;
+    font-weight: 700;
+}
+.temperature-container h1{
+    font-size: 64px;
+}
+#sunIcon{
+    margin-left: 1rem;
+    margin-bottom: 8px;
+}
+.temperature-container h2{
+    position: relative;
+    bottom: 8px;
+    font-size: 24px;
+}
+.bottom-container{
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #2C394B;
+    width: max-content;
+    height: max-content;
+    box-shadow: black 0px 2px 30px 1px;
+    transition: 300ms;
+}.bottom-container:hover{
+    transition: 300ms;
+    transform: translateY(5px);
+}
+
+.locationInput-container{
+    display: grid;
+    padding: 18px;
+}
+.locationInput-container button{
+    margin: 12px 24px;
+    border-radius: 20px;
+}
+button{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    border: none;
+    height: 42px;
+    background-image: url(Images/background.jpg);
+    transition: 300ms;
+}button:hover{
+    transition: 300ms;
+    transform: translateY(2px);
+}
+input{
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 16px 0px 16px 0px;
+    border-bottom: 4px solid cadetblue;
+    font-size: 22px;
+    font-weight: 400;
+    transition: 500ms all ease-out;
+}
+input:focus{
+    background-color: rgba(255, 255, 255, 1);
+}
