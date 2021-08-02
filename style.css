@@ -1,5 +1,6 @@
 /* import */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
     font-family: 'Ubuntu', sans-serif;
@@ -57,20 +58,19 @@ body{
     margin-top: 12rem;
     padding-bottom: 1rem;
 }
-.temperature-container , h1, h2{
+.temperature-container , h1, h2, h3{
     margin-left: 1rem;
     font-weight: 700;
 }
 .temperature-container h1{
-    font-size: 64px;
+    font-size: 72px;
+    font-family: 'Georama', sans-serif;
+    font-weight: 300;
 }
-#sunIcon{
-    margin-left: 1rem;
-    margin-bottom: 8px;
-}
+
 .temperature-container h2{
     position: relative;
-    bottom: 8px;
+    bottom: 4px;
     font-size: 24px;
 }
 .bottom-container{
@@ -118,4 +118,14 @@ input{
 }
 input:focus{
     background-color: rgba(255, 255, 255, 1);
+}
+.mixMaxTemperature{
+    font-size: medium;
+}
+.spanCentigradi{
+    position: relative;
+    font-size: medium;
+    bottom: 2.6rem;
+    margin-left: 4px;
+    font-family: 'Ubuntu', sans-serif;
 }
