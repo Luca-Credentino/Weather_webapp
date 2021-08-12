@@ -73,32 +73,43 @@ body{
     bottom: 4px;
     font-size: 24px;
 }
+.mixMaxTemperature{
+    font-size: medium;
+}
+.spanCentigradi{
+    position: relative;
+    font-size: medium;
+    bottom: 2.6rem;
+    margin-left: 4px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* bottom container*/
+
 .bottom-container{
+    display: grid;
+    justify-items: center;
     margin: 0 auto;
     border-radius: 20px;
     background-color: #2C394B;
     width: max-content;
-    height: max-content;
     box-shadow: black 0px 2px 30px 1px;
     transition: 300ms;
-}.bottom-container:hover{
+}
+.bottom-container:hover{
     transition: 300ms;
     transform: translateY(5px);
-}
-
-.locationInput-container{
-    display: grid;
-    padding: 18px;
-}
-.locationInput-container button{
-    margin: 12px 24px;
-    border-radius: 20px;
 }
 button{
     color: white;
     text-align: center;
     font-weight: 700;
+    margin: 1rem;
     border: none;
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
     height: 42px;
     background-image: url(Images/background.jpg);
     transition: 300ms;
@@ -109,6 +120,7 @@ button{
 input{
     border: none;
     outline: none;
+    width: min-content;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 16px 0px 16px 0px;
     border-bottom: 4px solid cadetblue;
@@ -118,14 +130,4 @@ input{
 }
 input:focus{
     background-color: rgba(255, 255, 255, 1);
-}
-.mixMaxTemperature{
-    font-size: medium;
-}
-.spanCentigradi{
-    position: relative;
-    font-size: medium;
-    bottom: 2.6rem;
-    margin-left: 4px;
-    font-family: 'Ubuntu', sans-serif;
 }

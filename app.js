@@ -58,7 +58,7 @@ return `${data} ${mesi} ${year}`
 function displayDay(now){
     const days = ["Sunday","Monday","Tuesday","Wednesday","thursday","Friday","Saturday"];
     
-    let giorno = days[now.getDay()];
+    let giornate = days[now.getDay()];
     
-    return `${giorno}`;
+    return `${giornate}`;
 }
